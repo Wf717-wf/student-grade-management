@@ -1,0 +1,12 @@
+<template>
+  <ErrorCpn type="404" @errorClick="handlerError"></ErrorCpn>
+</template>
+
+<script setup>
+import ErrorCpn from '../../components/error/index.vue'
+function handlerError() {
+  console.log('按钮点击')
+}
+</script>
+
+<style lang="less" scoped></style>
